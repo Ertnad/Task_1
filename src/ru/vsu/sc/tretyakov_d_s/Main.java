@@ -9,6 +9,7 @@ public class Main {
     double V = readSpeed("Boat");
     double U = readSpeed("River");
     checkSpeed(V,U);
+
     double T1 = readTime("Driving along the river");
     double T2 = readTime("Driving against the flow of the river");
 
@@ -26,8 +27,6 @@ public class Main {
       System.out.println("Speed can be only more than 0");
       System.exit(1);
     }
-
-
 
     return value;
   }
